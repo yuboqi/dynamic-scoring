@@ -29,7 +29,7 @@ class ScoringSystem {
             // 主要按钮
             startRoundBtn: document.getElementById('startRoundBtn'),
             submitRoundBtn: document.getElementById('submitRoundBtn'),
-            addGroupBtn: document.getElementById('addGroupBtn'),
+            // addGroupBtn: document.getElementById('addGroupBtn'),
             resetBtn: document.getElementById('resetBtn'),
             
             // 显示区域
@@ -56,7 +56,7 @@ class ScoringSystem {
         // 主要功能按钮
         this.elements.startRoundBtn.addEventListener('click', () => this.startNewRound());
         this.elements.submitRoundBtn.addEventListener('click', () => this.submitRound());
-        this.elements.addGroupBtn.addEventListener('click', () => this.showAddGroupModal());
+        // this.elements.addGroupBtn.addEventListener('click', () => this.showAddGroupModal());
         this.elements.resetBtn.addEventListener('click', () => this.showResetModal());
         
         // 添加组别模态框
